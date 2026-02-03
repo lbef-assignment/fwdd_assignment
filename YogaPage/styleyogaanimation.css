@@ -1,0 +1,139 @@
+#yogafirstsec_container h1{
+    opacity: 0;
+    transform: translateY(-60px) ;
+    transition:  1s ease ;
+}
+#yogafirstsec_container h1.show{
+    opacity: 1;
+    transform: translateY(0) ;
+}
+
+
+#yogafirstsec_container p{
+    opacity: 0;
+    transform: translateY(60px) ;
+    transition:  1s ease ;
+}
+#yogafirstsec_container p.show{
+    opacity: 1;
+    transform: translateY(0) ;
+}
+
+#yogafirstsec_container #smalltitle1{
+    opacity: 0;
+    transform: translateX(-150px) ;
+    transition:  0.8s ease ;
+
+}
+
+#yogafirstsec_container #smalltitle1.show{
+    opacity: 1;
+    transform: translateX(0) ;
+
+}
+
+#yogafirstsec_container #smalltitle2{
+    opacity: 0;
+    transform: translateX(150px) ;
+    transition:  0.8s ease ;
+
+}
+
+#yogafirstsec_container #smalltitle2.show{
+    opacity: 1;
+    transform: translateX(0) ;
+
+}
+
+#yogafirstsec_container #yogaimg{
+    opacity: 0;
+    transform: translateY(50px) ;
+    transition:  1s ease ;
+
+}
+
+
+#yogafirstsec_container #yogaimg.show{
+    opacity: 1;
+    transform: translateY(0) ;
+
+}
+
+
+
+#exploreservicesstyle_container h2, #servicesbenefitsection h2{
+    opacity: 0;
+    transform: translateX(-200px) ;
+    transition:  1s ease ;
+
+}
+
+#exploreservicesstyle_container h2.show, #servicesbenefitsection h2.show{
+    opacity: 1;
+    transform: translateX(0) ;
+
+}
+
+#exploreservicesstyle_container p, #servicesbenefitsection #benefitparagraph, #servicesforsection_container h2,#servicesforsection_container #servicesforparagraph,#servicesforsection_container .servicesCard {
+    opacity: 0;
+    transform: translateY(100px) ;
+    transition:  1s ease ;
+
+}
+
+#exploreservicesstyle_container p.show, #servicesbenefitsection #benefitparagraph.show, #servicesforsection_container h2.show, #servicesforsection_container #servicesforparagraph.show, #servicesforsection_container .servicesCard.show{
+    opacity: 1;
+    transform: translateY(0) ;
+
+}
+
+ #servicesbenefitsection .services_benefit_cards{
+    opacity: 0;
+    transform: translateY(100px) ;
+    transition:  1s ease ;
+
+}
+
+ #servicesbenefitsection .services_benefit_cards.show{
+    opacity: 1;
+    transform: translateY(0) ;
+
+}
+
+
+#servicesbenefitsection .smalltitles {
+  opacity: 0;
+  transform: translateY(35px) scale(0.96);
+}
+
+#servicesbenefitsection .smalltitles.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: all 0.75s ease-out;
+}
+
+
+/* at fitclub */
+
+#servicesoffers_main h2, #servicesoffers_main p{
+    opacity: 0;
+    transform: translateX(200px);
+    transition: 1s ease;
+}
+
+#servicesoffers_main h2.show, #servicesoffers_main p.show{
+    opacity: 1;
+    transform: translateX(0);
+   
+}
+
+#servicesoffers_main .servicesOfferRow{
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: 0.5s ease;
+}
+
+#servicesoffers_main .servicesOfferRow.show{
+    opacity: 1;
+    transform: translateX(0);
+}

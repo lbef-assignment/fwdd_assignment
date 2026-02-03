@@ -1,0 +1,170 @@
+.smalltitles {
+  opacity: 0;
+  transform: translateY(35px) scale(0.96);
+}
+
+.smalltitles.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: all 0.75s ease-out;
+}
+
+
+
+#herosec1_container h1{
+    
+    opacity: 0;
+    transform: translateX(-300px) ;
+    transition: 2s ease;
+}
+
+#herosec1_container h1.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#herosec1_container #bookaclass{
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: all 1s ease;
+}
+
+#herosec1_container #bookaclass.show{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#herosec1_container #exploreservices{
+    opacity: 0;
+    transform: translateX(60px);
+    transition: all 1s ease;
+}
+
+#herosec1_container #exploreservices.show{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#herosec2_container p ,#herosec2_container #herosec2_secondpara ,#herosec3_container p, #herosec6_container p,  #herosec1_container p{
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 1s ease-out;
+}
+#herosec2_container p.show ,#herosec2_container #herosec2_secondpara.show ,#herosec3_container p.show, #herosec6_container p.show,  #herosec1_container p.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#herosec2_container h2,  #hero5_container h2{
+  opacity: 0;
+  transform: translateX(-200px);
+  transition: all 2s ease;
+}
+#herosec2_container h2.show,  #hero5_container h2.show{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#herosec2_container a, #herosec3_container #viewallservice, #herosec4_container a , #herosec6_container #bookyourclassbutton, #herosec6_container #contactusbutton, #herosec1_container .happymembers{
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 1s ease-out;
+}
+#herosec2_container a.show, #herosec3_container #viewallservice.show, #herosec4_container a.show, #herosec6_container #bookyourclassbutton.show , #herosec6_container #contactusbutton.show , #herosec1_container .happymembers.show{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#herosec2_container #philosophyimg {
+  opacity: 0;
+  transform: translateX(200px);
+  transition: all 2s ease;
+}
+#herosec2_container #philosophyimg.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+/* herosec3 animation setup */
+
+#herosec3_container .serviceboxes{
+    opacity: 0;
+    transform: translateY(150px);
+    transition: all 0.8s ease;
+}
+#herosec3_container .serviceboxes.show{
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+
+/* herosec4 animation setup */
+#herosec4_container #sec4_img1 {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 2s ease;
+}
+#herosec4_container #sec4_img1.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#herosec4_container #sec4_img2 {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 2s ease;
+}
+#herosec4_container #sec4_img2.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#herosec4_container .classtype {
+  opacity: 0;
+  transform: translateY(60px) scale(0.96);
+}
+
+#herosec4_container .classtype.show{
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: all 1s ease-out;
+}
+ 
+#herosec4_container .classname {
+  opacity: 0;
+  transform: translateY(60px) scale(0.96);
+}
+
+#herosec4_container .classname.show{
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: all 1s ease-out;
+}
+
+#herosec4_container .classtime {
+  opacity: 0;
+  transform: translateY(60px) scale(0.96);
+}
+
+#herosec4_container .classtime.show{
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: all 1s ease-out;
+}
+
+
+
+/* HERO SECTION 6 ANIMATION SETUP */
+#herosec6_container h2 , #herosec3_container h2{
+  opacity: 0;
+  transform: translateX(200px);
+  transition: all 2s ease;
+}
+#herosec6_container h2.show, #herosec3_container h2.show{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
