@@ -1,0 +1,72 @@
+
+
+#hathaimg::before{
+    background-image: url(/assets/images/yoga/hathayoga.jpg);
+}
+
+#vinyasaimg::before{
+    background-image: url(/assets/images/yoga/vinyasayoga.jpg);
+}
+
+#powerimg::before{
+    background-image: url(/assets/images/yoga/poweryoga.jpg);
+}
+
+#yinimg::before{
+    background-image: url(/assets/images/yoga/yinyoga.jpg);
+}
+
+#breathworkimg::before{
+    background-image: url(/assets/images/yoga/breathworkyoga.jpg);
+}
+
+#prenatalimg::before{
+    background-image: url(/assets/images/yoga/prenatalyoga.jpg);
+}
+
+.yogastyleboxes:hover{
+    transform: translateY(-16px);
+    box-shadow:
+        0 0 20px rgba(0, 255, 150, 0.65),
+        0 0 46px rgba(0, 255, 150, 0.50),
+        0 0 72px rgba(0, 255, 150, 0.35);
+}
+
+#reducestress, #boosthearthealth{
+    border-radius: 33px 33px 33px 33px;
+}
+
+#improvesleep, #enhancefocus{
+    border-radius: 33px 0 33px 0; 
+}
+
+#buildstrength{
+    border-radius: 33px 0 33px 0;
+    background:linear-gradient(135deg,#1f3d28, #30613c) ;
+}
+
+#enhancefocus{
+    border-radius: 0 33px 0 33px;
+}
+
+#improvesleep{
+    background:linear-gradient(to bottom left,#1f3d28, #30613c) ;
+}
+
+#improveflexibility{
+    background:linear-gradient(135deg,#1f3d28, #30613c) ;
+}
+
+#enhancefocus{
+    background: linear-gradient(to top left, #1f3d28, #30613c);
+}
+
+#buildstrength{
+    background: linear-gradient(to top right, #1f3d28, #30613c);
+}
+
+@media(max-width:500px){
+    .yogastyleboxes{
+        flex:0 0 100%;
+    }
+}

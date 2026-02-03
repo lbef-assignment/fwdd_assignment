@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#herosec6_container{
+    height: 520px;          /* 800 × 0.65 = 520px */
+    width: 100%;
+    scroll-margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf8f5;
+}
+
+#herosec6{
+    height: 60%;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;    /* 30 × 0.65 = 19.5 */
+    background-color: #f0e9df;
+}
+
+#herosec6_smallcontainer{
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Title conversion */
+#herosec6_smallcontainer h2{
+    font-size: 50px;        /* 60 × 0.65 = 39px */
+}
+
+/* Paragraph stays */
+#herosec6_smallcontainer p{
+    text-align: center;
+}
+
+/* Button container conversion */
+#sec6_buttons{
+    height: 65px;           /* 100 × 0.65 = 65px */
+    width: 36%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#contactusbutton{
+    background-color: black;
+}
+
+

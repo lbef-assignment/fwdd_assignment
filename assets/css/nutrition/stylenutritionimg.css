@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nutritionimg{
+    position: relative;
+    height: 120%;
+    width: 100%;
+    background-image: url(/assets/images/nutrition/nutritionpageimg.png);
+    background-size: 126%;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: visible;
+    z-index: 2;
+    top: -15px;
+    /* filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.35)) */
+    filter: 
+        drop-shadow(0px 15px 25px rgba(0, 0, 0, 0.35))
+        drop-shadow(0px 30px 60px rgba(0, 0, 0, 0.55));
+   
+}
+
+#balancedmealimg::before{
+    background-image: url(/assets/images/nutrition/balancedmeal.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#fatlossimg::before{
+    background-image: url(/assets/images/nutrition/fatloss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#musclebuildimg::before{
+    background-image: url(/assets/images/nutrition/musclebuilding.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sportsnutritionimg::before{
+    background-image: url(/assets/images/nutrition/sportsnutrition.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#guthealthimg::before{
+    background-image: url(/assets/images/nutrition/guthealth.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mindfuleatingimg::before{
+    background-image: url(/assets/images/nutrition/mindfuleating.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#healthyweight, #hearthealthnutri{
+    border-radius: 33px 0 33px 0;
+}
+
+#strongerbody, #betterdigestion{
+    border-radius: 33px 33px 33px 33px;
+}

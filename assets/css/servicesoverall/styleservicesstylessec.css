@@ -1,0 +1,193 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+#exploreservicesstyle_container{
+    scroll-margin-top: 68px;
+    height: 715px;
+    width: 100vw;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAF8F5;
+}
+
+#exploreservicesstyle_innercontainer{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#servicesstylescontainer{
+    height: 70%;
+    width: 100%;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 46px;
+    align-items: center;
+    overflow-x: auto; 
+    position: relative;
+    scroll-behavior: smooth;
+    anchor-name: --carousel;
+    scroll-snap-type: x proximity;
+    scroll-snap-stop: always; 
+}
+
+#servicesstylescontainer::-webkit-scrollbar{
+    display: none;
+}
+
+#servicesstylescontainer::scroll-button(left){
+    content:"<";
+    border:none;
+    background-color: #30613c;
+    box-shadow:
+        0 3px 8px rgba(236, 237, 239, 0.35),
+        0 0 13px rgba(236, 237, 239, 0.20);
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    position: fixed;
+    position-anchor: --carousel;
+    position-area: left center;
+    translate: 50%;
+}
+
+#servicesstylescontainer::scroll-button(right){
+    content:">";
+    border:none;
+    background-color: #30613c;
+    box-shadow:
+        0 3px 8px rgba(236, 237, 239, 0.35),
+        0 0 13px rgba(236, 237, 239, 0.20);
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    position: fixed;
+    position-anchor: --carousel;
+    position-area: right center;
+    translate: -50%;
+}
+
+#servicestylescontainer::scroll-button(right):disabled, #servicesstylescontainer::scroll-button(left):disabled{
+    opacity: 0.5;
+    cursor: auto;
+    z-index: 9999; 
+}
+
+.servicesstyleboxes{
+    flex: 0 0 calc((100% - 91px) / 3);
+    height: 85%;
+    position: relative;
+    overflow: hidden;
+    scroll-snap-align: start;
+    will-change: transform;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.servicesstyleboxes::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: brightness(0.6);      
+    z-index: -1;
+}
+
+.styledescription{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 13px;
+}
+
+.styletitle{
+    font-size: 26px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    color:#ffffff;
+    text-shadow: 
+    0 3px 8px rgba(0, 0, 0, 0.45);
+}
+
+.styleparagraphs{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #ded6c9;
+}
+
+#mindfullnessimg::before{
+    background-image: url(/assets/images/meditation/mindfullness.jpg);
+}
+
+#guidedimg::before{
+    background-image: url(/assets/images/meditation/guidedmeditation.jpg);
+}
+
+#mantraimg::before{
+    background-image: url(/assets/images/meditation/mantrameditation.jpg);
+}
+
+#breatheawarenessimg::before{
+    background-image: url(/assets/images/meditation/breatheawarenessmeditation.jpg);
+}
+
+#lovingkindnessimg::before{
+    background-image: url(/assets/images/meditation/lovingkindnessmeditation.jpg);
+}
+
+#soundhealingimg::before{
+    background-image: url(/assets/images/meditation/soundhealingmeditation.jpg);
+}
+
+.servicesstyleboxes:hover{
+    transform: translateY(-16px);
+    box-shadow:
+        0 0 20px rgba(0, 255, 150, 0.65),
+        0 0 46px rgba(0, 255, 150, 0.50),
+        0 0 72px rgba(0, 255, 150, 0.35);
+}
+
+@media(max-width:500px){
+    .meditationstyleboxes{
+        flex:0 0 100%;
+    }
+}
+
+#meditationimg{
+    position: relative;
+    height: 120%;
+    width: 100%;
+    background-image: url(/assets/images/meditation/full-shot-woman-meditating-home.png);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: visible;
+    z-index: 2;
+    top: -10px;
+    filter: 
+        drop-shadow(0px 10px 16px rgba(0, 0, 0, 0.35))
+        drop-shadow(0px 20px 39px rgba(0, 0, 0, 0.55));
+}
+

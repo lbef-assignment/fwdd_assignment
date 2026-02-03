@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#hero5_container{
+    scroll-margin-top: 75px;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #30613c;
+}
+
+#hero5{
+    height: 90%;
+    width: 80%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#hero5 h2{
+    color: #ffffff;
+    text-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.45);
+}
+
+#hero5 .smalltitles{
+    color: rgba(255,255,255,0.7);
+}
+
+#membersfeedback_container{
+    height: 50%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+#carousel_track{
+    
+    height: 85%;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    animation: spin 22s linear 0s infinite;
+    will-change: transform;
+    
+    
+}
+
+.feedbackboxes{
+    flex:0 0 325px;
+    margin-right: 39px; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 13px;
+    background-color: #254E32;
+    box-shadow: 
+        0 10px 23px rgba(0, 0, 0, 0.40),
+        0 0 16px rgba(48, 97, 60, 0.20),
+        inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    transition: all 0.3s ease;
+}
+@keyframes spin{
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@media(max-width:500px){
+    .experts{
+        flex:0 0 100%;
+    }
+}
+
+#membersfeedback_container:hover #carousel_track{
+  animation-play-state: paused;
+}
+
+.patientinfo,
+.actualfeedback{
+    transition: all 0.3s ease;
+}
+.feedbackboxes:hover{
+    transform: translateY(-8px) scale(1.05);
+    border: 1px solid aqua;
+    
+
+}
+
+.feedbackboxes:hover .actualfeedback{
+    border-radius: 12px;
+    padding: 9px;
+    color: white;
+}
+.feedbackboxes:hover .patientname{
+    color: white;
+    font-weight: 600;
+}
+
+
+.feedbackinfo{
+    height: 35%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.patientimg{
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    
+}
+.patientinfo{
+    height: 100%;
+    width: 60%;
+    padding-left: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #30613c;
+    border-radius: 13px;
+}
+
+.patientname{
+    height: 30%;
+    width: 100%;
+    color:#ffffff;
+    text-shadow: 
+    0 3px 8px rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    
+
+}
+
+.rating{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    color:rgba(250, 248, 245, 0.7);
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    
+    
+}
+
+.actualfeedback{
+    height: 50%;
+    width: 90%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 16px;
+    color:rgba(250, 248, 245, 0.7);
+    border-radius: 7px;
+    background-color: #30613c;
+    
+}
+
+#krishbaniya{
+    background-image: url(/assets/images/landing/krishbaniya.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#genialpun{
+    background-image: url(/assets/images/landing/genialpun.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#sanjanabaral{
+    background-image: url(/assets/images/landing/sanjanabaral.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#dipendragautam{
+    background-image: url(/assets/images/landing/dipendragautam.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mahimachhetri{
+    background-image: url(/assets/images/landing/mahimachhetri.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#nabinbaral{
+    background-image: url(/assets/images/landing/nabinbaral.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bibishanshrestha{
+    background-image: url(/assets/images/landing/bibishanshrestha.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#shristikathapa{
+    background-image: url(/assets/images/landing/shristikathapa.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* #bibishanshrestha{
+    background-image: url(membersphotos/bibishanshrestha.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
+
+
+
+
+

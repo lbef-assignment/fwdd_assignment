@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#servicesforsection_container{
+    height: 455px;
+    width: 100vw;
+    background-color: #faf8f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicesforsection_innercontainer{
+    height: 70%;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicesForGrid{
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicesCard{
+    height: 90%;
+    width: 15%;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 13px;
+    padding-top: 13px;
+    background-color: #f0e9df;
+}
+
+.servicesForicon{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #d6cab9;
+    color: #3e3838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesForicon i{
+    font-size: 18px;
+}
+
+.servicesCard p{
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.servicesCard h3{
+    font-size: 16px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    color: #000;
+}
+
+.servicesicon_container{
+    height: 30%;
+    width: 100%;
+}
+
+.h3container{
+    height: 20%;
+    width: 100%;
+}
+
+.pcontainer{
+    height: 30%;
+    width: 100%;
+}
+
+#servicesforparagraph{
+    text-align: center;
+}
