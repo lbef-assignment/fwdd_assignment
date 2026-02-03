@@ -1,116 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-}
 
-#servicesbenefitsection{
-    height: 1000px;
-    width: 100vw;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0e9df;
-}
-
-#servicesbenefit_innercontainer{
-    height: 90%;
-    width: 80%;
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#servicesbenefitdescription_leftcontainer{
-    height: 80%;
-    width: 35%;
- 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: start;
-}
-
-#servicesbenefitcards_rightcontainer{
-    height: 90%;
-    width: 60%;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.services_benefit_cards{
-    height: 45%;
-    width: 30%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: start;
-    padding-left: 3px;
-    margin: 19px;
-
-    background: linear-gradient(135deg, #30613c, #1f3d28);
-    border-radius: 0 50px 0 50px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-
-    box-shadow:
-        0 12px 30px rgba(0, 0, 0, 0.25),
-        0 0 25px rgba(48, 97, 60, 0.35);
-}
-
-.services_benefit_cards h3{
-    font-size: 30px;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 700;
-    color: #F3EDE4;
-    
-}
-
-.services_benefit_cards p{
-    font-size: 20px;
-    padding-left: 10px;
-    color: rgba(250, 248, 245, 0.6);
-}
-
-
-#improvefocus, #emotionalhealth{
-    border-radius: 50px 50px 50px 50px;
-}
-
-#bettersleep, #innerpeace{
-    border-radius: 50px 0 50px 0; 
-}
-
-
-#reduceanxiety{
-    border-radius: 50px 0 50px 0;
-    background: linear-gradient(135deg, #1f3d28, #30613c);
-}
-
-#innerpeace{
-    border-radius: 0 50px 0 50px;
-}
-
-#bettersleep{
-    background: linear-gradient(to bottom left, #1f3d28, #30613c);
-}
-
-#calmmind{
-    background: linear-gradient(135deg, #1f3d28, #30613c);
-}
-
-#innerpeace{
-    background: linear-gradient(to top left, #1f3d28, #30613c);
-}
-
-#improvefocus{
-    background: linear-gradient(to top right, #1f3d28, #30613c);
-} */
 
 *{
     margin: 0;
@@ -119,7 +7,7 @@
 
 #servicesbenefitsection{
     height: 650px;
-    width: 100vw;
+    width: 100%;
 
     display: flex;
     justify-content: center;
@@ -190,35 +78,4 @@
     color: rgba(250, 248, 245, 0.6);
 }
 
-#improvefocus, #emotionalhealth{
-    border-radius: 33px 33px 33px 33px;
-}
 
-#bettersleep, #innerpeace{
-    border-radius: 33px 0 33px 0; 
-}
-
-#reduceanxiety{
-    border-radius: 33px 0 33px 0;
-    background: linear-gradient(135deg, #1f3d28, #30613c);
-}
-
-#innerpeace{
-    border-radius: 0 33px 0 33px;
-}
-
-#bettersleep{
-    background: linear-gradient(to bottom left, #1f3d28, #30613c);
-}
-
-#calmmind{
-    background: linear-gradient(135deg, #1f3d28, #30613c);
-}
-
-#innerpeace{
-    background: linear-gradient(to top left, #1f3d28, #30613c);
-}
-
-#improvefocus{
-    background: linear-gradient(to top right, #1f3d28, #30613c);
-}

@@ -11,6 +11,7 @@ html {
 body{
     margin: 0;
     padding-top: 75px;
+  
 }
 
 #herosec1_container{
@@ -44,7 +45,7 @@ body{
     background-size: cover;
     background-position: center;
 
-    filter: blur(4px);        
+    filter: blur(2px);        
     transform: scale(1.1);    
     z-index: -1;              
 }
@@ -248,4 +249,31 @@ h1{
 
 #mode i, #notification i{
     color: rgb(247, 238, 238);
+}
+#notificationbar{
+    height: 300px;
+    width: 150px;
+    border: 1px solid rgba(49, 95, 49, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 9999;
+    top:40px;
+
+    font-size: 14px;
+    background-color:white;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.3s ease;
+}
+
+#notification:hover #notificationbar{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
 }

@@ -7,7 +7,7 @@
 #exploreservicesstyle_container{
     scroll-margin-top: 68px;
     height: 715px;
-    width: 100vw;
+    width: 100%;
  
     display: flex;
     justify-content: center;

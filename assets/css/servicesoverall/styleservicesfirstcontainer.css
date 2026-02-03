@@ -8,7 +8,7 @@
 #yogafirstsec_container{
     scroll-margin-top: 75px;      
     height: 650px;               
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
