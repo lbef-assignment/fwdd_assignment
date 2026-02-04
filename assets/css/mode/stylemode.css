@@ -159,7 +159,8 @@
 }
 
 .dark .services_benefit_cards  {
-    background-color:#111827;
+    background: linear-gradient(to bottom, #111827, #0f172a);
+
     border: 1px solid rgba(255,255,255,0.2);
 }
 

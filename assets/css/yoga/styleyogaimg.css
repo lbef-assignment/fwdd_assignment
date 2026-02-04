@@ -42,28 +42,28 @@
 
 #buildstrength{
     border-radius: 33px 0 33px 0;
-    background-color:linear-gradient(135deg,#1f3d28, #30613c) ;
+    /* background-color:linear-gradient(135deg,#1f3d28, #30613c) ; */
 }
 
 #enhancefocus{
     border-radius: 0 33px 0 33px;
 }
 
-#improvesleep{
-    background-color:linear-gradient(to bottom left,#1f3d28, #30613c) ;
+/* #improvesleep{
+    background:linear-gradient(to bottom left,#1f3d28, #30613c) ;
 }
 
 #improveflexibility{
-    background-color:linear-gradient(135deg,#1f3d28, #30613c) ;
+    background:linear-gradient(135deg,#1f3d28, #30613c) ;
 }
 
 #enhancefocus{
-    background-color: linear-gradient(to top left, #1f3d28, #30613c);
+    background: linear-gradient(to top left, #1f3d28, #30613c);
 }
 
 #buildstrength{
-    background-color: linear-gradient(to top right, #1f3d28, #30613c);
-}
+    background: linear-gradient(to top right, #1f3d28, #30613c);
+} */
 
 @media(max-width:500px){
     .yogastyleboxes{

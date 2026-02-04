@@ -8,25 +8,25 @@
 
 #reduceanxiety{
     border-radius: 33px 0 33px 0;
-    background-color: linear-gradient(135deg, #1f3d28, #30613c);
+    /* background: linear-gradient(135deg, #1f3d28, #30613c); */
 }
 
 #innerpeace{
     border-radius: 0 33px 0 33px;
 }
-
+/* 
 #bettersleep{
-    background-color: linear-gradient(to bottom left, #1f3d28, #30613c);
+    background: linear-gradient(to bottom left, #1f3d28, #30613c);
 }
 
 #calmmind{
-    background-color: linear-gradient(135deg, #1f3d28, #30613c);
+    background: linear-gradient(135deg, #1f3d28, #30613c);
 }
 
 #innerpeace{
-    background-color: linear-gradient(to top left, #1f3d28, #30613c);
+    background: linear-gradient(to top left, #1f3d28, #30613c);
 }
 
 #improvefocus{
-    background-color: linear-gradient(to top right, #1f3d28, #30613c);
-}
+    background: linear-gradient(to top right, #1f3d28, #30613c);
+} */

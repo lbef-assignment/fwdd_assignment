@@ -2,6 +2,7 @@
 html {
   scroll-behavior:smooth;
   overscroll-behavior: none;
+  overflow-x: hidden;
 }
 
 *{
@@ -11,6 +12,7 @@ html {
 body{
     margin: 0;
     padding-top: 75px;
+    overflow-x: hidden;
   
 }
 
@@ -55,7 +57,7 @@ body{
 #herosec1{
     height: 85%;
     width: 45%;
-
+    max-width: 650px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -147,7 +149,7 @@ h1{
 #sec1_buttons{
     height: 10%;
     width: 63%;
-    
+
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -174,7 +176,8 @@ h1{
 
 #bookaclass, #bookyourclassbutton{
     transition: all 0.3s ease;
-
+    
+    
     background-color: #30613c;
 
 }
@@ -280,3 +283,122 @@ h1{
     opacity: 1;
     transform: translateY(0);
 }
+
+/* FOR SMALL LAPTOPS */
+@media (max-width: 1200px) {
+
+  #herosec1 {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  #membernums {
+    width: 80%;
+  }
+
+  #sec1_buttons {
+    width: 80%;
+  }
+}
+
+/* FOR TABLETS */
+@media (max-width: 900px) {
+
+  #herosec1 {
+    width: 85%;
+    align-items: center;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  #herosec1 p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  #membernums {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .number {
+    font-size: 32px;
+  }
+
+  #sec1_buttons {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+/* FOR MOBILE PHONES */
+@media (max-width: 600px) {
+
+  #herosec1_container {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  #herosec1 {
+    width: 100%;
+    height: auto;
+    gap: 25px;
+  }
+
+  .titles {
+    width: auto;
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  #herosec1 p {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  #membernums {
+    flex-direction: column;
+    gap: 18px;
+    height: auto;
+    align-items: center;
+  }
+
+  .happymembers {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  #sec1_buttons {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+    align-items: center;
+  }
+
+  #sec1_buttons a {
+    width: 90%;
+    max-width: 280px;
+  }
+
+  #modesandnotification {
+    right: 12px;
+    top: 80px;
+    transform: scale(0.85);
+  }
+}
+
