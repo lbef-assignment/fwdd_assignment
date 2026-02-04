@@ -4,7 +4,7 @@
 }
 
 #herosec6_container{
-    height: 520px;          /* 800 × 0.65 = 520px */
+    height: 520px;  
     width: 100%;
     scroll-margin-top: 75px;
     display: flex;
@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
 
-    border-radius: 20px;    /* 30 × 0.65 = 19.5 */
+    border-radius: 20px;   
     background-color: #f0e9df;
 }
 
@@ -37,7 +37,7 @@
 
 /* Title conversion */
 #herosec6_smallcontainer h2{
-    font-size: 50px;        /* 60 × 0.65 = 39px */
+    font-size: 50px;       
 }
 
 /* Paragraph stays */
@@ -47,7 +47,7 @@
 
 /* Button container conversion */
 #sec6_buttons{
-    height: 65px;           /* 100 × 0.65 = 65px */
+    height: 65px;      
     width: 36%;
     font-size: 16px;
     display: flex;
@@ -59,6 +59,80 @@
 
 #contactusbutton{
     background-color: black;
+}
+
+@media(max-width:1200px){
+    h2{
+        font-size: 42px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #sec6_buttons{
+        
+        gap:30px;
+    }
+}
+
+/* FOr Tablets */
+@media (max-width:900px){
+    #herosec6_smallcontainer h2{
+        font-size: 38px;
+        text-align: center;
+        line-height: 48px;
+    }
+    #herosec6_smallcontainer p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    #sec6_buttons{
+        width:48%;
+    }
+    #sec6_buttons a{
+        width: 350px;
+    }
+    #herosec6_container{
+        height: 550px;
+    }
+    
+}
+
+@media (max-width:700px){
+    #sec6_buttons{
+        width: 70%;
+    }
+    #sec6_buttons a{
+        width: 330px;
+    }
+    #herosec6_container{
+        height: 570px;
+    }
+    #herosec6{
+        height: 75%;
+    }
+
+}
+
+@media (max-width:400px){
+    #sec6_buttons{
+        width: 90%;
+    }
+    #sec6_buttons a{
+        width: 350px;
+        font-size: 14px;
+    }
+
+}
+
+/* For MACs */
+@media (max-width:1280px){
+  
+  #sec6_buttons{
+
+    width: 42%;
+  }
+
 }
 
 

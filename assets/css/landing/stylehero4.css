@@ -127,3 +127,33 @@
     transition: all 0.3s ease;
 
 }
+
+/* for Small Laptops */
+
+@media (max-width: 1200px) {
+    .classtype, .classtime{
+        font-size:10px ;
+    }
+
+    .classname{
+        font-size:20px ;
+    }
+    #sec4_imgcontainer{
+        gap: 30px;
+    }
+}
+
+/* For tablets */
+/* Its all fine */
+
+/* For Mobiles */
+/* Its all */
+
+/* For MACs */
+@media (max-width:1280px){
+  
+  #sec4_imgcontainer{
+    gap: 35px;
+  }
+
+}

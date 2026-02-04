@@ -289,6 +289,7 @@ h1{
 
   #herosec1 {
     width: 60%;
+   
   }
 
   h1 {
@@ -300,7 +301,10 @@ h1{
   }
 
   #sec1_buttons {
-    width: 80%;
+    
+    width: 69% !important;
+    align-items: center;
+    
   }
 }
 
@@ -311,6 +315,7 @@ h1{
     width: 85%;
     align-items: center;
     text-align: center;
+    
   }
 
   h1 {
@@ -321,11 +326,22 @@ h1{
   #herosec1 p {
     font-size: 16px;
     line-height: 30px;
+    
   }
 
   #membernums {
-    width: 100%;
-    justify-content: space-around;
+   
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+  }
+  .happymembers{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .number {
@@ -335,7 +351,7 @@ h1{
   #sec1_buttons {
     width: 100%;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
   }
 }
 
@@ -384,15 +400,16 @@ h1{
   }
 
   #sec1_buttons {
-    flex-direction: column;
+    
     height: auto;
-    gap: 15px;
+    gap: 30px;
     align-items: center;
   }
 
   #sec1_buttons a {
-    width: 90%;
+    width: 200px;
     max-width: 280px;
+    
   }
 
   #modesandnotification {
@@ -400,5 +417,17 @@ h1{
     top: 80px;
     transform: scale(0.85);
   }
+}
+
+/* For mac */
+@media (max-width:1280px){
+  #herosec1_container{
+    height: 760px;
+  }
+  #sec1_buttons{
+   
+    width: 78%;
+  }
+
 }
 
