@@ -233,6 +233,9 @@ h1{
     background-color: #30613c;
 
 }
+#mode i, #notification i{
+    font-size: 25px;
+}
 #mode:hover, #notification:hover{
     transform: scale(1.1) translateX(-10px);
 }

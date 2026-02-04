@@ -87,14 +87,15 @@
 
 }
 
- #servicesbenefitsection .services_benefit_cards{
+#servicesbenefitsection .services_benefit_cards{
     opacity: 0;
     transform: translateY(100px) ;
     transition:  1s ease ;
 
 }
 
- #servicesbenefitsection .services_benefit_cards.show{
+#servicesbenefitsection .services_benefit_cards.show{
+    
     opacity: 1;
     transform: translateY(0) ;
 

@@ -42,7 +42,7 @@
 
 #buildstrength{
     border-radius: 33px 0 33px 0;
-    background:linear-gradient(135deg,#1f3d28, #30613c) ;
+    background-color:linear-gradient(135deg,#1f3d28, #30613c) ;
 }
 
 #enhancefocus{
@@ -50,19 +50,19 @@
 }
 
 #improvesleep{
-    background:linear-gradient(to bottom left,#1f3d28, #30613c) ;
+    background-color:linear-gradient(to bottom left,#1f3d28, #30613c) ;
 }
 
 #improveflexibility{
-    background:linear-gradient(135deg,#1f3d28, #30613c) ;
+    background-color:linear-gradient(135deg,#1f3d28, #30613c) ;
 }
 
 #enhancefocus{
-    background: linear-gradient(to top left, #1f3d28, #30613c);
+    background-color: linear-gradient(to top left, #1f3d28, #30613c);
 }
 
 #buildstrength{
-    background: linear-gradient(to top right, #1f3d28, #30613c);
+    background-color: linear-gradient(to top right, #1f3d28, #30613c);
 }
 
 @media(max-width:500px){

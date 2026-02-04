@@ -8,7 +8,7 @@
 
 #reduceanxiety{
     border-radius: 33px 0 33px 0;
-    background: linear-gradient(135deg, #1f3d28, #30613c);
+    background-color: linear-gradient(135deg, #1f3d28, #30613c);
 }
 
 #innerpeace{
@@ -16,17 +16,17 @@
 }
 
 #bettersleep{
-    background: linear-gradient(to bottom left, #1f3d28, #30613c);
+    background-color: linear-gradient(to bottom left, #1f3d28, #30613c);
 }
 
 #calmmind{
-    background: linear-gradient(135deg, #1f3d28, #30613c);
+    background-color: linear-gradient(135deg, #1f3d28, #30613c);
 }
 
 #innerpeace{
-    background: linear-gradient(to top left, #1f3d28, #30613c);
+    background-color: linear-gradient(to top left, #1f3d28, #30613c);
 }
 
 #improvefocus{
-    background: linear-gradient(to top right, #1f3d28, #30613c);
+    background-color: linear-gradient(to top right, #1f3d28, #30613c);
 }

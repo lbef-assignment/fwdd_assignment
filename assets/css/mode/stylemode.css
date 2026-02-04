@@ -143,3 +143,56 @@
     background-color: #111827;
     color: rgba(255,255,255,0.6);
 }
+
+.dark #yogafirstsec_container{
+    background-color: #0f172a;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+}
+.dark #exploreservicesstyle_container{
+    background-color: #111827;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+}
+
+.dark #servicesbenefitsection{
+    background-color: #0f172a;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+}
+
+.dark .services_benefit_cards  {
+    background-color:#111827;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.dark #servicesforsection_container{
+    background-color: #111827;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+}
+
+.dark .servicesCard{
+    background-color: #0f172a;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+.dark h3{
+    color: #ffffff;
+}
+
+.dark #servicesoffers_main{
+    background-color: #0f172a;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+}
+
+.dark #yogafirstsec_container h1{
+    color: #ffffff;
+
+}
+
+.dark #yogafirstsec_container p{
+    color: rgba(255,255,255,0.6);
+    text-shadow: none;
+
+}
+
+.dark .servicesOfferRow{
+    background-color: #111827;
+    border: 1px solid rgba(255,255,255,0.2);
+}
