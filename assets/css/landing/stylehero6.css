@@ -106,6 +106,7 @@
     }
     #sec6_buttons a{
         width: 150px !important;
+        font-size: 13px;
     }
     /* #herosec6_container{
         height: 570px;
@@ -125,11 +126,12 @@
 
 @media (max-width:400px){
     #sec6_buttons{
+        height: auto;
         width: 90%;
     }
     #sec6_buttons a{
         width: 350px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
 }

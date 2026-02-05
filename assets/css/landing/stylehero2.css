@@ -108,7 +108,8 @@ a{
 
   #herosec2_container {
     height: auto;
-    padding: 80px 20px;
+    padding-top: 80px; 
+    padding-bottom: 80px;
   }
 
   #herosec2 {
@@ -144,9 +145,9 @@ FOR MOBILES */
 
 @media (max-width: 600px) {
 
-  #herosec2_container {
-    padding: 60px 15px;
-  }
+  /* #herosec2_container {
+    /* padding: 60px 15px; */
+  
 
   h2 {
     font-size: 30px;
@@ -159,6 +160,7 @@ FOR MOBILES */
   }
 
   p {
+    /* width: 100%; */
     font-size: 14px;
     line-height: 22px;
   }

@@ -214,3 +214,118 @@
   margin: 16px 0;                              
 }
 
+@media (max-width: 900px) {
+
+  #footercontainer{
+    height: auto;
+    padding: 40px 0;
+  }
+
+  #fotterpart{
+    width: 90%;
+  }
+
+  #fotter1{
+    flex-wrap: wrap;
+    gap: 30px;
+    height: auto;
+  }
+
+  #merodocfotterleft{
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  #merodoclog,
+  #merodoclogcaption{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #medialinks{
+    justify-content: center;
+  }
+
+  .foots{
+    width: 45%;
+    align-items: center;
+  }
+
+  .smallfoottitle,
+  .smallfootlists{
+    align-items: center;
+    text-align: center;
+  }
+
+  .smallcaptionhover{
+    justify-content: center;
+    padding-right: 0 !important;
+  }
+
+  #lowerfotter{
+    text-align: center;
+    justify-content: center;
+    padding-left: 0;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  #footercontainer{
+    padding: 50px 0 30px;
+  }
+
+  #fotter1{
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  #merodocfotterleft{
+    width: 100%;
+    gap: 18px;
+  }
+
+  #merodoclog{
+    font-size: 26px;
+  }
+
+  #merodoclogcaption{
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .foots{
+    width: 100%;
+  }
+
+  .smallfoottitle{
+    font-size: 15px;
+  }
+
+  .smallfootlists{
+    gap: 14px;
+  }
+
+  .smallcaptionhover{
+    height: auto;
+  }
+
+  .innersmallcaption{
+    width: 100%;
+    text-align: center;
+  }
+
+  #lowerfotter{
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    padding: 10px;
+  }
+}
+

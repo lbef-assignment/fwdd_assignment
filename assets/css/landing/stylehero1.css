@@ -10,9 +10,11 @@ html {
     padding: 0;
 }
 body{
+    
     margin: 0;
     padding-top: 75px;
     overflow-x: hidden;
+    
   
 }
 
@@ -360,7 +362,7 @@ h1{
 
   #herosec1_container {
     height: auto;
-    padding: 60px 20px;
+    /* padding: 60px 20px; */
   }
 
   #herosec1 {
@@ -400,20 +402,22 @@ h1{
   }
 
   #sec1_buttons {
-    
     height: auto;
     gap: 30px;
+  
+    width: 100% !important;
     align-items: center;
   }
 
   #sec1_buttons a {
-    width: 200px;
+    width: 130px;
     max-width: 280px;
+    font-size: 13px;
     
   }
 
   #modesandnotification {
-    right: 12px;
+    right: -7px !important;
     top: 80px;
     transform: scale(0.85);
   }

@@ -137,9 +137,10 @@ i{
 @media (max-width: 900px) {
 
   #herosec3_container {
-    height: auto;
-    padding: 80px 20px;
-  }
+    height: auto; 
+    padding-top: 80px;
+    padding-bottom: 80px;
+  } 
 
   #herosec3 {
     height: auto;
@@ -171,6 +172,13 @@ i{
 
 /* for mobiles */
 @media (max-width: 600px) {
+  
+  #herosec3_container {
+    height: auto;
+   
+    
+  }
+
 
   h2 {
     font-size: 30px;
