@@ -72,5 +72,11 @@
     border-radius: 33px 33px 33px 33px;
 }
 
+@media (max-width:600px){
+    #fitnessimg{
+        transform: scale(1.42);
+    }
+}
+
 
 

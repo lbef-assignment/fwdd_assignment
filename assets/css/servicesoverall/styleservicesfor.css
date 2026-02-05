@@ -107,9 +107,10 @@
     }
     #servicesforsection_container{
         height: 700px;
+        
     }
     .servicesForGrid{
-        height: 80%;
+        height: 90%;
     
         flex-wrap: wrap;
     }
@@ -151,4 +152,27 @@
         
     }
     
+}
+
+@media (max-width:600px){
+    #servicesforsection_innercontainer{
+        width: 90%;
+        height: 85%;
+        
+        
+    }
+    .servicesForGrid{
+        
+        flex-wrap: wrap;
+        height: 75%;
+    }
+    .servicesCard{
+        width: 45%;
+        height: 25%;
+    }
+    .pcontainer p{
+        font-size: 12px !important;
+    }
+
+
 }

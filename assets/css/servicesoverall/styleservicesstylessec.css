@@ -195,17 +195,26 @@
 
 @media (max-width:600px){
     h2{
-        font-size: 30px;
+        font-size: 36px;
     }
     p{
         font-size: 14px;
-        text-align: center;
+        text-align: center !important;
+       
     }
+    #servicesstylescontainer{
+        width: 120% !important;
+      
+    }
+    .servicesstyleboxes{
+        width: auto;
+    }
+        
     .styletitle{
-        font-size: 25px;
+        font-size: 18px;
     }
     .styleparagraphs{
-        font-size: 10px;
+        font-size: 8px;
     }
     
 }

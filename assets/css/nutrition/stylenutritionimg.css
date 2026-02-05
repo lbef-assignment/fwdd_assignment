@@ -70,3 +70,9 @@
 #strongerbody, #betterdigestion{
     border-radius: 33px 33px 33px 33px;
 }
+
+@media (max-width:600px){
+    #nutritionimg{
+        transform: scale(1.42);
+    }
+}

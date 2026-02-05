@@ -125,33 +125,53 @@
 }
 
 @media (max-width:600px) {
-    #yogafirstsec_container{
-        height:750px;
-    }
-    
-    #yogagreenbox{
+    #yogafirstsec_innercontainer{
         height: 85%;
-        width: 135%;
-     
-        border: 3px solid red;
+        flex-direction: column;
+
     }
-    #yogaimagebox{
+    #yogafirstsec_innercontainer .smalltitles{
         
-        border: 3px solid yellow;   
+        width: 90%;
+        text-align: center;
     }
-    #yogaimg{
-        width: 410px;
-        background-size: 115%;
-    }
-    .smalltitles{
-        font-size: 11px;
-    }
+
+    
     p{
         font-size: 14px;
+        line-height: 23px;
     }
-    h1{
-        font-size: 55px;
+    .smalltitles{
+        font-size: 12px;
+        line-height: 15px;
     }
+    #yogadescription_container h1{
+        font-size: 40px;
+    }
+
+    #yogadescription_container{
+        
+        width: 100%;
+        height: 80%;
+    }
+
+    #yogaimagebox{
+       
+        height: 250px;
+    }
+    #yogagreenbox{
+        height: 205px;
+        width: 160%;
+    }
+    #yogaimg{
+        /* background-size: 140% !important; */
+        height: 100%;
+        
+        transform: scale(1.32) !important;
+        
+        
+    }
+ 
     
 
     
