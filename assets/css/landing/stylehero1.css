@@ -148,8 +148,8 @@ h1{
 
 #sec1_buttons{
     height: 10%;
-    width: 63%;
-
+    width: 68%;
+  
     display: flex;
     flex-direction: row;
     justify-content:space-between;
