@@ -98,18 +98,27 @@
     
 }
 
-@media (max-width:700px){
+@media (max-width:600px){
     #sec6_buttons{
-        width: 70%;
+        width: 100% !important;
+        
+        justify-content: space-evenly !important;
     }
     #sec6_buttons a{
-        width: 330px;
+        width: 150px !important;
     }
-    #herosec6_container{
+    /* #herosec6_container{
         height: 570px;
-    }
-    #herosec6{
+    } */
+    /* #herosec6{
         height: 75%;
+    } */
+    h2{
+        font-size: 30px !important;
+    }
+    p{
+        font-size: 14px !important;
+        text-align: center;
     }
 
 }

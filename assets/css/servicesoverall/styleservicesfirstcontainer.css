@@ -21,7 +21,6 @@
 #yogafirstsec_innercontainer{
     height: 80%;
     width: 80%;
-   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -108,3 +107,55 @@
 #yogadescription_container p{
     text-align: center;
 }
+
+/* For Small Laptops */
+
+@media (max-width:1200px) {
+    
+    #yogagreenbox{
+        height: 90%;
+        width: 125%;
+    }
+    #yogaimg{
+        height: 430px;
+        width: 430px;     
+    }
+
+    
+}
+
+@media (max-width:600px) {
+    #yogafirstsec_container{
+        height:750px;
+    }
+    
+    #yogagreenbox{
+        height: 85%;
+        width: 135%;
+     
+        border: 3px solid red;
+    }
+    #yogaimagebox{
+        
+        border: 3px solid yellow;   
+    }
+    #yogaimg{
+        width: 410px;
+        background-size: 115%;
+    }
+    .smalltitles{
+        font-size: 11px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 55px;
+    }
+    
+
+    
+}
+
+
+

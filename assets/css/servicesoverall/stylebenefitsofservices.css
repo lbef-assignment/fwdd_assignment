@@ -78,4 +78,51 @@
     color: rgba(250, 248, 245, 0.6);
 }
 
+@media (max-width:600px){
+    #servicesbenefitsection{
+        height: 900px;
+        
+    }
+    #servicesbenefit_innercontainer{
+        flex-direction: column;
+    }
+    #servicesbenefitdescription_leftcontainer{
+        height: 25%;
+        width: 90%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #servicesbenefitcards_rightcontainer{
+        height: 70%;
+        width: 90%;
+        border: 1px solid black;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .services_benefit_cards{
+        height: 25%;
+        width: 45%;
+        
+
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 17px !important;
+        font-weight: none;
+        font-family: "Cormorant Garamond", serif;
+    }
+    .smalltitles{
+        font-size: 12px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .services_benefit_cards p{
+        font-size: 10px;
+    }
+
+}
+
 
