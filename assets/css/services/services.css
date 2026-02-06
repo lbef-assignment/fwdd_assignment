@@ -1,0 +1,220 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+main{
+  background-color: rgb(250, 248, 245);
+}
+
+.nav {
+  height: 75px;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+
+/* intro-section */
+.intro {
+  /* border: 2px solid #333; */
+  padding: 30px 40px;
+  margin-bottom: 50px;
+  /* border-radius: 8px; */
+  background-color: #f0e9df;
+  width: 100%;
+  height: 350px;
+}
+.intro-inner{
+  /* border: 2px solid black; */
+  margin-left: 52px;
+}
+.intro-tagline {
+  font-size: 16px;
+  color: #30613c;
+  margin-bottom: 5px;
+  font-family: "Inter", sans-serif;
+  padding: 10px;
+  margin-left: 35px;
+}
+
+.intro-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222;
+  /* border: 2px solid black; */
+  width: 350px;
+  font-family: "Cormorant Garamond", serif;
+  padding: 10px;
+  margin-left: 35px;
+
+
+}
+
+
+.intro-description p {
+  font-size: 16px;
+  line-height: 1.6;
+  color:#30613c;
+  /* border: 2px solid black; */
+  width: 60%;
+  padding: 10px;
+  margin-left: 35px;
+}
+
+/* service-section */
+.Yoga,
+.Meditation,
+.Fitness,
+.Nutrition {
+  width: 100%;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 10px
+}
+
+.service-inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.Meditation .service-inner,
+.Nutrition .service-inner {
+  flex-direction: row-reverse;
+}
+
+/* Content Area */
+.service-content {
+  width: 45%;
+  /* border: 2px solid #333; */
+  padding: 20px 10px;
+  border-radius: 8px;
+  background-color: rgb(250, 248, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  color: #30613c;
+  line-height: 20px;
+}
+
+.service-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #222;
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* Logo */
+#logo{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1e4e1;
+  margin-bottom: 10px;
+  color: #30613c;
+}
+
+/* Section Types */
+.service-types {
+  /* border: 2px solid #333; */
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: rgb(250, 248, 245);
+  margin-top: 15px;
+}
+
+.service-types h4 {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #222;
+  font-weight: 550;
+  text-transform: uppercase;
+}
+
+.type-lists {
+  display: flex;
+  color: #30613c;
+}
+
+.type-list {
+  
+  margin-left: 20px;
+}
+
+.type-list li {
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: #30613c;
+  padding: 5px;
+}
+
+/* Image */
+.service-image {
+  width: 45%;
+  /* border: 2px solid #333; */
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* Image sources */
+.yoga-img {
+  background-image: url(/full-shot-women-doing-yoga-indoors.jpg);
+}
+
+.meditation-img {
+  background-image: url(/person-practicing-tai-chi-indoors.jpg);
+}
+
+.fitness-img {
+  background-image: url(/side-view-woman-man-gym.jpg);
+}
+
+.nutrition-img {
+  background-image: url(/smiling-nutritionist-advises-young-patient-woman-proper-nutrition-dieting.jpg);
+}
+
+/* Button */
+.learn-more {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  /* border: 2px solid #333; */
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fffcfc;
+  background-color: #30613c;
+  transition: all 0.3s ease;
+  width: 32%;
+}
+
+.learn-more:hover {
+  color: aqua;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+footer{
+  height: 364px;
+  width: 100vw;
+  /* border: 2px solid black; */
+}
+
