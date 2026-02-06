@@ -73,6 +73,6 @@
 
 @media (max-width:600px){
     #nutritionimg{
-        transform: scale(1.42);
+        transform: scale(1.3);
     }
 }
