@@ -1,0 +1,147 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+span.section-label {
+    font-family: "inter", sans-serif;
+}
+
+h1 {
+    font-family: "Cormorant Garamond", serif;
+}
+
+p.subtitle {
+    font-family: "inter", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f0e9df;
+    color: #333;
+    padding-top: 75px;
+    overflow-x: hidden;
+}
+
+.pricing-section {
+    
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.pricing-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 50px;
+}
+
+.pricing-cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch; 
+    font-family: "Inter", sans-serif;
+}
+
+.card {
+    background: #faf8f5;
+    width: 300px;
+    padding: 35px 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+    display: flex;              
+    flex-direction: column;     
+    position: relative;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.price span {
+    font-size: 16px;
+    color: #777;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+    flex-grow: 1;
+}
+
+.card ul li {
+    margin-bottom: 12px;
+}
+
+.card button {
+    background: #e2e2e2;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.card button:hover {
+    box-shadow: 0 0 15px rgba(48, 97, 60, 0.8);
+    transform: translateY(-2px);
+}
+
+
+.featured {
+    background: #30613c;
+    color: #fff;
+}
+
+.featured .price span,
+.featured ul li {
+    color: #e6e6e6;
+}
+
+.featured button {
+    background: #fff;
+    color: #30613c;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.featured button:hover {
+    box-shadow: 0 0 15px rgba(249, 250, 249, 0.8);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .pricing-section {
+    padding: 40px 15px;
+    }
+}
+@media (max-width: 900px) {
+    .pricing-section h1 {
+    font-size: 30px;
+    }
+}
+@media (min-width: 1200px) {
+    .card {
+    width: 320px;
+    }
+}
