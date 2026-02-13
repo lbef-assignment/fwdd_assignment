@@ -6,6 +6,9 @@
 
 span.section-label {
     font-family: "inter", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    color: #30613c;
 }
 
 h1 {
