@@ -4,6 +4,7 @@
 }
 
 #navbar_container{
+    scroll-margin-top: 75px;
     height: 75px;
     width:100%;
     

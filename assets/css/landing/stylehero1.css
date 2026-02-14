@@ -226,7 +226,7 @@ h1{
 
 }
 
-#mode, #notification{
+#mode, #notification, #scrollup{
     height: 33px;
     width: 33px;
     border-radius: 50%;
@@ -238,24 +238,24 @@ h1{
     background-color: #30613c;
 
 }
-#mode i, #notification i{
+#mode i, #notification i ,#scrollup i{
     font-size: 25px;
 }
-#mode:hover, #notification:hover{
+#mode:hover, #notification:hover, #todoicon:hover, #scrollup:hover{
     transform: scale(1.1) translateX(-10px);
 }
 
-#mode:active, #notification:active{
+#mode:active, #notification:active,#todoicon:active, #scrollup:active{
     background-color: black;
 
 }
-#mode:active i, #notification:active i{
+#mode:active i, #notification:active i, #todoicon:active i, #scrollup:active i{
     color: aqua;
     
     
 }
 
-#mode i, #notification i{
+#mode i, #notification i, #todoicon i, #scrollup i{
     color: rgb(247, 238, 238);
 }
 #notificationbar{
@@ -285,6 +285,38 @@ h1{
     opacity: 1;
     transform: translateY(0);
 }
+
+#todoicon i{
+  font-size: 25px;
+}
+#todoicon{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  z-index: 9999;
+  text-decoration: none;
+  position: fixed;
+  top: 190px;
+  right: 35px;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  will-change:transform;
+  background-color: #30613c;
+
+}
+#scrollup{
+  text-decoration: none;
+  
+  z-index: 9999;
+  position: fixed;
+  bottom: 100px;
+  right: 35px;
+
+}
+
 
 /* FOR SMALL LAPTOPS */
 @media (max-width: 1200px) {
