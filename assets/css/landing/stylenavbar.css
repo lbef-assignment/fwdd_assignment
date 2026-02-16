@@ -83,6 +83,11 @@
     height: 40px !important;
     width:70px;
 
+
+}
+
+#hamburger i{
+    font-size: 27px;
 }
 .nav-item {
   position: relative;
@@ -206,12 +211,79 @@
     #fullviewnav { display: none; }
     #responsivenavbar { display: inline-block; }
     .dropdown-content{
-        height: 310px;
+        height: 320px;
         width: 100px !important;
         right: 100px;
         
     }
 }
+@media (max-width: 768px) and (min-width: 601px){
+    #nav_smallbox{
+        width: 85%;
+    }
+
+    a{
+        font-size: 12px;
+    }
+    .dropdown-content{
+        width: 130px;
+        height: 340px;
+        right: 80px;
+    }
+
+    #fullviewnav { display: none; }
+    #responsivenavbar { display: inline-block; }
+}
+
+@media (max-width: 900px) and (min-width: 768px){
+    #nav_smallbox{
+        width: 80%;
+    }
+
+    a{
+        font-size: 13px;
+    }
+
+
+    #fullviewnav { display: none; }
+    #responsivenavbar { display: inline-block; }
+}
+/* ===== iPad Pro ===== */
+@media (min-width: 834px) and (max-width: 1024px){
+
+    #nav_smallbox{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #navlogo{
+        width: 45%;
+    }
+
+    #other_btns{
+        width: 55%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    a{
+        font-size: 13px;
+    }
+
+    #fullviewnav { display: none; }
+    #responsivenavbar { display: inline-block; }
+
+    .dropdown-content{
+        width: 130px;
+        height: 330px;
+        right: 80px;
+    }
+}
+
+
 
 /* Mobile (<=600px) */
 @media (max-width: 600px) {
@@ -246,7 +318,7 @@
     
     }
     .dropdown-content{
-        height: 300px;
+        height: 310px;
         width: 100px !important;
         right: 100px;
         

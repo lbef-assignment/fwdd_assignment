@@ -280,3 +280,119 @@ html {
    
 }
 
+@media (max-width: 600px) {
+
+  /* Top expert intro section */
+  #expertinnercontainer{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #expertfirstcontainer,
+  #expertnums{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Main expert containers */
+  .expertcontainer{
+    height: auto;
+    width: 90%;
+  }
+
+  .expertsmallcontainer{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .expertboxes{
+    width: 85%;
+    height: 300px;
+  }
+
+  /* Nutrition & Fitness sections */
+  .nf_expertcontainer{
+    height: auto;
+    width: 90%;
+  }
+
+  .nf_expertsmallcontainer{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .nf_expertcontainer .expertboxes{
+    width: 85%;
+    height: 300px;
+  }
+}
+
+
+@media (max-width: 900px) and (min-width: 601px) {
+
+  #expertinnercontainer{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #expertfirstcontainer,
+  #expertnums{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .expertcontainer{
+    height: auto;
+    width: 90%;
+  }
+
+  .expertsmallcontainer{
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .expertboxes{
+    width: 45%;
+    height: 280px;
+  }
+
+  .nf_expertcontainer{
+    height: auto;
+    width: 90%;
+  }
+
+  .nf_expertsmallcontainer{
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .nf_expertcontainer .expertboxes{
+    width: 45%;
+    height: 280px;
+  }
+}
+
+
+@media (max-width: 1200px) and (min-width: 901px) {
+
+  .expertcontainer{
+    width: 90%;
+  }
+
+  .expertboxes{
+    width: 30%;
+  }
+
+  .nf_expertcontainer{
+    width: 90%;
+  }
+
+  .nf_expertcontainer .expertboxes{
+    width: 30%;
+  }
+}
+
