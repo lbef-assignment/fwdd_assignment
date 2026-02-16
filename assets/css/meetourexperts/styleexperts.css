@@ -114,9 +114,12 @@ html {
     width: 100%;
     height: 120%;          
     z-index: 2; 
-    background-size: contain;
-    background-position: center bottom;
+    background-size: 90%;
+    background-position: center center;
     background-repeat: no-repeat;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.45))
+          drop-shadow(0 8px 20px rgba(48, 97, 60, 0.6));
+
 }
 
 
@@ -145,4 +148,135 @@ html {
 #vinyasayogaexpert{
     background-image: url("/assets/images/yogaexperts/vinyasayogaexpert.png");
 }
+
+#poweryogaexpert{
+    background-image: url("/assets/images/yogaexperts/poweryogaexpert.png");
+    background-size: 110%;
+}
     
+#yinyogaexpert{
+    background-image: url("/assets/images/yogaexperts/yingogaexpert.png");
+    background-size: 60%;
+   
+}
+#breathworkyogaexpert{
+    background-image: url("/assets/images/yogaexperts/breathworkyogaexpert.png");
+    background-size: 60%;
+
+}
+
+#prenatalyogaexpert{
+    background-image: url("/assets/images/yogaexperts/prenatalyogaexpert.png");
+     background-size: 65%;
+}
+
+#mindfullnessexpert{
+    background-image: url("/assets/images/yogaexperts/mindfullness.png");
+    background-size: 60%;
+    
+    
+    
+
+}
+#guidedexpert{
+    background-image: url("/assets/images/yogaexperts/guided.png");
+    background-size: 60%;
+    top: 1px;
+    
+
+}
+#lovingexpert{
+    background-image: url("/assets/images/yogaexperts/loving.png");
+   
+    background-size: 110%;
+
+}
+#mantraexpert{
+    background-image: url("/assets/images/yogaexperts/mantra.png");
+    background-size: 65%;
+    bottom: 10px;
+    
+
+}
+#breathawarenessexpert{
+    background-image: url("/assets/images/yogaexperts/breathawareness.png");
+    background-size: 75%;
+
+}
+#soundexpert{
+    background-image: url("/assets/images/yogaexperts/sound.png");
+    background-size: 117%;
+    
+    
+
+}
+
+.nf_expertcontainer{
+    height: 600px;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+.nf_expertsmallcontainer{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f0e9df;
+    border-radius: 20px;
+
+}
+
+.nf_expertcontainer .expertboxes{
+    height: 90%;
+    width: 23%;
+}
+
+#n1{
+    background-image: url(/assets/images/yogaexperts/nutritionexpert1.png);
+    background-size: 120%;
+  
+}
+
+#n2{
+    background-image: url(/assets/images/yogaexperts/nutritionexpert2.png);
+    background-size: 115%;
+   
+}
+
+#n3{
+    background-image: url(/assets/images/yogaexperts/nutritionexpert3.png);
+    background-size: 115%;
+ 
+   
+}
+
+#f1{
+    background-image: url(/assets/images/yogaexperts/f1.png);
+    background-size: 120%;
+ 
+   
+}
+
+#f2{
+    background-image: url(/assets/images/yogaexperts/f2.png);
+    background-size: 120%;
+ 
+   
+}
+#f3{
+    background-image: url(/assets/images/yogaexperts/f3.png);
+    background-size: 78%;
+ 
+   
+}
+

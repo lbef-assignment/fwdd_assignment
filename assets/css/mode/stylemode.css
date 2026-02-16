@@ -197,3 +197,68 @@
     background-color: #111827;
     border: 1px solid rgba(255,255,255,0.2);
 }
+
+/* MEET OUR EXPERTS PAGE */
+.dark #expertcontainer{
+    background-color: #111827;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+    
+}
+
+.dark .expertcontainer{
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+    background-color: #0f172a;
+}
+
+.dark .nf_expertcontainer {
+    background-color: #111827;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+}
+
+.dark .expertsmallcontainer{
+    background-color: #111827;
+}
+
+.dark .expertdescription{
+    background-color: #091127;
+    box-shadow: 0 14px 25px -10px rgba(0, 0, 0, 0.6);
+}
+
+.dark .nf_expertsmallcontainer{
+    background-color: #091127;
+}
+
+
+/* SERVICE NABIN */
+
+.dark .intro{
+    background-color: #111827;
+}
+
+.dark .Yoga , .Fitness{
+    background-color: #111827;
+   
+
+}
+.dark main{
+    background-color: #0f172a;
+    
+}
+
+.dark .service-content{
+    background-color: #091127;
+}
+
+.dark .service-types{
+    background-color:#091127 ;
+}
+
+.dark #logo{
+    background-color: #111827;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+    
+}
+
+.dark h4{
+    color: #e3d5d5;
+}
