@@ -213,6 +213,15 @@ p {
 footer{
   height: 364px;
   width: 100vw;
-  /* border: 2px solid black; */
+
 }
 
+#darkmodecontainer{
+  height: 2000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}

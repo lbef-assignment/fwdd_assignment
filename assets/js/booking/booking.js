@@ -40,6 +40,29 @@ anchorfitness.addEventListener('click',()=>{
     meditationclasses.style.display="none";
 })
 
+whichclass=document.querySelector('#whichclass');
+cname=document.querySelector("#name");
+instructor=document.querySelector("#instructor");
+
+classesname=document.querySelectorAll('.classesname');
+classestype=document.querySelectorAll('.classestype');
+classeswith=document.querySelectorAll(".classeswith")
+;
+booknowbtn=document.querySelectorAll(".bookclasses");
+classesdescription=document.querySelectorAll(".classesdescription");
+
+booknowbtn.forEach(value=> {
+    value.addEventListener("click",()=>{
+        console.log(classesname.innerText);
+        whichclass.innerText=classesname.innerText;
+        cname.innerText=classestype.innerText;
+        instructor.innerText= classeswith.innerText;
+
+    })
+    
+});
+
+
 
 
 

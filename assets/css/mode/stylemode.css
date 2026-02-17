@@ -235,7 +235,7 @@
     background-color: #111827;
 }
 
-.dark .Yoga , .Fitness{
+.dark .Yoga {
     background-color: #111827;
    
 
@@ -244,6 +244,10 @@
     background-color: #0f172a;
     
 } */
+.dark #darkmodecontainer{
+    background-color: #0f172a;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+}
 
 .dark .service-content{
     background-color: #091127;

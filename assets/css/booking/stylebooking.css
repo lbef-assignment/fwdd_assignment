@@ -139,7 +139,7 @@ h3{
     0 18px 40px rgba(0, 0, 0, 0.08);
     
 }
-#classesdescription{
+.classesdescription{
     height: 100%;
     width: 45%;
     display: flex;
@@ -213,7 +213,7 @@ h4{
     color: rgb(129, 96, 96);
 }
 
-#bookclasses{
+.bookclasses{
     height: 30px;
     width: 120px;
     background-color: #30613c;
@@ -224,11 +224,11 @@ h4{
     color: #faf8f6;
     transition: all 0.3s ease;
 }
-#bookclasses:hover, #submitbtn:hover{
+.bookclasses:hover, #submitbtn:hover{
     transform: scale(1.05);
 }
 
-#bookclasses:active, #submitbtn:active{
+.bookclasses:active, #submitbtn:active{
     transform: scale(1.2);
     background-color: black;
 }
@@ -268,7 +268,6 @@ h4{
 }
 
 #bookingprocess_innercontainer{
-    
     background-color: #f0e9df;
     border-radius: 20px;
     height: 50%;
@@ -348,16 +347,17 @@ input{
     align-items: center;
 }
 #whichclass{
-    font-size: 10px;
+    font-size: 12px;
     color: #1A241C;
 }
 #name{
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Cormorant Garamond", serif;
     color: black;
+    font-weight: bold;
 }
 #instructor{
-    font-size: 8px;
+    font-size: 10px;
     color: #30613c;
 }
 #days{
