@@ -280,119 +280,117 @@ html {
    
 }
 
+
+/* Small laptop */
+@media (max-width: 1200px) {
+  #expertinnercontainer { width: 90%; gap: 22px; }
+
+  .expertcontainer,
+  .nf_expertcontainer { width: 90%; height: auto; padding: 40px 0; }
+
+  .expertsmallcontainer,
+  .nf_expertsmallcontainer { height: auto; padding: 24px 18px; gap: 18px; }
+
+  .expertboxes { width: 30%; }
+  .nf_expertcontainer .expertboxes { width: 28%; }
+}
+
+/* Tablets + iPad landscape */
+@media (max-width: 1024px) {
+  #expertcontainer { height: auto; padding: 36px 0; }
+
+  #expertinnercontainer {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 92%;
+    gap: 18px;
+  }
+
+  #expertfirstcontainer,
+  #expertnums { width: 100%; height: auto; }
+
+  #expertnums {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 14px;
+  }
+
+  .expertcontainer,
+  .nf_expertcontainer { width: 92%; height: auto; padding: 36px 0; }
+
+  .expertsmallcontainer,
+  .nf_expertsmallcontainer {
+    height: auto;
+    padding: 22px 16px;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .expertboxes { width: 45%; }
+  .nf_expertcontainer .expertboxes { width: 45%; height: 280px; }
+
+  #expertparagraph { padding: 0 10px; line-height: 1.7; }
+}
+
+/* iPad portrait + tablets */
+@media (max-width: 900px) {
+  .expertcontainer,
+  .nf_expertcontainer { width: 92%; padding: 32px 0; }
+
+  .expertsmallcontainer,
+  .nf_expertsmallcontainer { padding: 20px 14px; gap: 16px; }
+
+  .expertboxes { width: 48%; height: 275px; }
+  .nf_expertcontainer .expertboxes { width: 48%; height: 275px; }
+
+  #expertparagraph { padding: 0 12px; }
+}
+
+/* Mobile devices */
 @media (max-width: 600px) {
+  #expertcontainer { padding: 30px 0; }
 
-  /* Top expert intro section */
-  #expertinnercontainer{
+  #expertnums {
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
+    gap: 10px;
   }
 
-  #expertfirstcontainer,
-  #expertnums{
+  .expertcontainer,
+  .nf_expertcontainer { width: 94%; padding: 28px 0; }
+
+  .expertsmallcontainer,
+  .nf_expertsmallcontainer {
+    padding: 16px 12px;
+    gap: 14px;
+    justify-content: center;
+  }
+
+  .expertboxes {
     width: 100%;
-    align-items: center;
-    text-align: center;
+    max-width: 380px;
+    height: 290px;
   }
 
-  /* Main expert containers */
-  .expertcontainer{
-    height: auto;
-    width: 90%;
-  }
-
-  .expertsmallcontainer{
-    flex-direction: column;
-    height: auto;
-  }
-
-  .expertboxes{
-    width: 85%;
-    height: 300px;
-  }
-
-  /* Nutrition & Fitness sections */
-  .nf_expertcontainer{
-    height: auto;
-    width: 90%;
-  }
-
-  .nf_expertsmallcontainer{
-    flex-direction: column;
-    height: auto;
-  }
-
-  .nf_expertcontainer .expertboxes{
-    width: 85%;
-    height: 300px;
-  }
-}
-
-
-@media (max-width: 900px) and (min-width: 601px) {
-
-  #expertinnercontainer{
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  #expertfirstcontainer,
-  #expertnums{
+  .nf_expertcontainer .expertboxes {
     width: 100%;
-    align-items: center;
-    text-align: center;
+    max-width: 380px;
+    height: 290px;
   }
 
-  .expertcontainer{
-    height: auto;
-    width: 90%;
-  }
-
-  .expertsmallcontainer{
-    flex-wrap: wrap;
-    height: auto;
-  }
-
-  .expertboxes{
-    width: 45%;
-    height: 280px;
-  }
-
-  .nf_expertcontainer{
-    height: auto;
-    width: 90%;
-  }
-
-  .nf_expertsmallcontainer{
-    flex-wrap: wrap;
-    height: auto;
-  }
-
-  .nf_expertcontainer .expertboxes{
-    width: 45%;
-    height: 280px;
-  }
+  #expertparagraph { padding: 0 8px; line-height: 1.75; }
 }
 
+/* Small mobile devices */
+@media (max-width: 400px) {
+  .expertcontainer,
+  .nf_expertcontainer { width: 95%; padding: 24px 0; }
 
-@media (max-width: 1200px) and (min-width: 901px) {
+  .expertsmallcontainer,
+  .nf_expertsmallcontainer { padding: 14px 10px; gap: 12px; }
 
-  .expertcontainer{
-    width: 90%;
-  }
+  .expertboxes { height: 280px; }
 
-  .expertboxes{
-    width: 30%;
-  }
-
-  .nf_expertcontainer{
-    width: 90%;
-  }
-
-  .nf_expertcontainer .expertboxes{
-    width: 30%;
-  }
+  #expertparagraph { font-size: 14px; }
 }
-
