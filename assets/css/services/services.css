@@ -225,3 +225,260 @@ footer{
   align-items: center;
 
 }
+
+
+/* ===========================
+   RESPONSIVE (Services Page)
+   - No navbar/footer rules
+   =========================== */
+
+/* Base improvements (helps all screens) */
+.intro-inner,
+.service-inner{
+  gap: 28px; /* clean spacing between blocks */
+}
+
+.service-content{
+  gap: 14px; /* consistent spacing inside content */
+}
+
+.service-types{
+  padding: 10px 0;
+}
+
+.type-lists{
+  gap: 18px;
+}
+
+.service-image{
+  min-height: 320px; /* avoids short images */
+}
+
+.learn-more{
+  width: fit-content;     /* nicer button sizing */
+  min-width: 170px;
+}
+
+/* Darkmode container: don't force huge fixed height */
+#darkmodecontainer{
+  height: auto;
+  padding: 40px 0;
+  gap: 50px;
+}
+
+
+/* --------------------------------
+   Small Laptop (<= 1200px)
+   -------------------------------- */
+@media (max-width: 1200px) {
+  .Yoga, .Meditation, .Fitness, .Nutrition{
+    max-width: 1050px;
+    padding: 0 20px;
+    margin: 35px auto;
+  }
+
+  .service-content, .service-image{
+    width: 48%;
+  }
+
+  .intro-title{
+    font-size: 36px;
+  }
+
+  .intro-description p{
+    width: 70%;
+  }
+}
+
+
+/* --------------------------------
+   Tablets / iPad landscape (<= 1024px)
+   -------------------------------- */
+@media (max-width: 1024px) {
+  .intro{
+    height: auto;
+    padding: 40px 16px;
+  }
+
+  .intro-inner{
+    width: 100%;
+    max-width: 900px;
+    align-items: flex-start;
+  }
+
+  .intro-title{
+    font-size: 34px;
+    width: auto;
+    max-width: 520px;
+  }
+
+  .intro-description p{
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .Yoga, .Meditation, .Fitness, .Nutrition{
+    padding: 0 18px;
+    margin: 32px auto;
+  }
+
+  .service-inner{
+    gap: 26px;
+  }
+
+  .service-content{
+    width: 52%;
+    padding: 18px 12px;
+  }
+
+  .service-image{
+    width: 45%;
+    min-height: 360px;
+  }
+
+  .service-title{
+    font-size: 30px;
+  }
+
+  .type-list li{
+    font-size: 14px;
+  }
+}
+
+
+/* --------------------------------
+   iPad (portrait) / Tablets (<= 900px)
+   - Stack content + image for clean look
+   -------------------------------- */
+@media (max-width: 900px) {
+  .Yoga, .Meditation, .Fitness, .Nutrition{
+    margin: 26px auto;
+    padding: 0 16px;
+  }
+
+  .service-inner{
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  /* Force same stacking for reversed ones too (cleaner in portrait) */
+  .Meditation .service-inner,
+  .Nutrition .service-inner{
+    flex-direction: column;
+  }
+
+  .service-content,
+  .service-image{
+    width: 100%;
+  }
+
+  .service-content{
+    padding: 18px 14px;
+  }
+
+  .service-image{
+    min-height: 320px;
+  }
+
+  .type-lists{
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .type-list{
+    margin-left: 18px;
+  }
+
+  .learn-more{
+    min-width: 190px;
+    padding: 12px 18px;
+  }
+}
+
+
+/* --------------------------------
+   Mobile devices (<= 600px)
+   -------------------------------- */
+@media (max-width: 600px) {
+  .intro{
+    padding: 34px 14px;
+  }
+
+  .intro-title{
+    font-size: 28px;
+    max-width: 100%;
+  }
+
+  .intro-description p{
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .Yoga, .Meditation, .Fitness, .Nutrition{
+    padding: 0 12px;
+    margin: 22px auto;
+  }
+
+  .service-content{
+    padding: 16px 12px;
+  }
+
+  .service-title{
+    font-size: 26px;
+  }
+
+  .service-image{
+    min-height: 260px;
+    border-radius: 12px;
+  }
+
+  .type-list li{
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  .learn-more{
+    width: 100%;
+    text-align: center;
+    min-width: unset;
+  }
+}
+
+
+/* --------------------------------
+   Small mobile devices (<= 400px)
+   -------------------------------- */
+@media (max-width: 400px) {
+  .intro{
+    padding: 28px 12px;
+  }
+
+  .intro-tagline{
+    font-size: 12px;
+  }
+
+  .intro-title{
+    font-size: 24px;
+  }
+
+  .service-title{
+    font-size: 24px;
+  }
+
+  .service-content{
+    gap: 12px;
+  }
+
+  #logo{
+    height: 40px;
+    width: 40px;
+  }
+
+  .service-image{
+    min-height: 220px;
+  }
+
+  .type-list{
+    margin-left: 16px;
+  }
+}
