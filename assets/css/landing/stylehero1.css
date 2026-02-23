@@ -45,7 +45,7 @@ body{
     position: absolute;
     inset: 0;
    
-    background-image: url("/assets/images/landing/still-life-yoga-equipment.jpg");
+    background-image: url("../../images/landing/still-life-yoga-equipment.jpg");
     background-size: cover;
     background-position: center;
 

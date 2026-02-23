@@ -74,7 +74,7 @@
     position: relative;        
     overflow: hidden;          
 
-    background-image: url("/assets/images/landing/yoga-teacher-class-teaching-attendants.jpg");
+    background-image: url("../../images/landing/yoga-teacher-class-teaching-attendants.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -98,7 +98,7 @@
 #sec4_img2{
     position: relative;
     overflow: hidden;
-    background-image: url("/assets/images/landing/full-shot-woman-exercising-mat.jpg");
+    background-image: url("../../images/landing/full-shot-woman-exercising-mat.jpg");
     background-size: cover;
     background-position: center;
 }
