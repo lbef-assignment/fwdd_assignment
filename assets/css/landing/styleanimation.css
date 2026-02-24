@@ -166,3 +166,39 @@
 }
 
 
+/* LOCATION ANIMATION */
+
+#location_container #findourlocation{
+  opacity: 0;
+  transform: translateX(-300px);
+  transition: all 2s ease;
+}
+#location_container #findourlocation.show{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#location_container #bagmati, #location_container #ourlocationcaption{
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 1.5s ease;
+}
+
+
+#location_container #bagmati.show, #location_container #ourlocationcaption.show{
+  opacity: 1;
+  transform: translateY(0);
+
+}
+
+#location_container #ourlocationsmallcontainer{
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 2s ease;
+}
+#location_container #ourlocationsmallcontainer.show{
+  opacity: 1;
+  transform: translateY(0);
+
+
+}

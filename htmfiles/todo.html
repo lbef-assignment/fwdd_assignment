@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/landing/stylehero1.css">
     <link rel="stylesheet" href="../assets/css/todo/styletodo.css">
     <link rel="stylesheet" href="../assets/css/landing/stylenavbar.css">
     <link rel="stylesheet" href="../assets/css/landing/stylefooter.css">
+    <link rel="stylesheet" href="../assets/css/mode/stylemode.css">
 
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -15,6 +17,23 @@
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+    <div id="modesandnotification">
+        <div id="mode">
+            <i class="fa-solid fa-moon"></i>
+        </div>
+        <div id="notification">
+            <i class="fa-solid fa-bell"></i>
+            <div id="notificationbar"><div class="smalltitles">VALENTINES OFFER❤️ !!!</div><p>Get 20% Discount on every classes</p> <p>Book your membership and classes now </p></div>
+
+        </div>
+    </div>
+    <div id="todoicon">
+        <i class="fa-solid fa-list-check"></i>
+
+    </div>
+    <a href="#container" id="scrollup">
+        <i class="fa-solid fa-caret-up"></i>
+    </a>
 <body>
     <header>
         <div id="navbar_container">
@@ -45,7 +64,7 @@
                             <a href="../index.html#herosec3_container" id="hamburger"><i class="fa fa-bars"></i></a>
 
                             <div class="dropdown-content" id="hamburgerdrop">
-                                <a href="../htmfiles/wellnesstips" class="dropdown_anchors">Wellness Tips</a>
+                                <a href="../htmfiles/wellnesstips.html" class="dropdown_anchors">Wellness Tips</a>
                                 
                             </div>
                         </div>
@@ -64,7 +83,7 @@
                             <a href="../htmfiles/membership.html" >Membership</a>
                             <a href="../htmfiles/contact.html">Contact</a>
                             <a href="../htmfiles/booking.html">Book Now</a>
-                            <a href="../htmfiles/wellnesstips" class="dropdown_anchors">Wellness Tips</a>
+                            <a href="../htmfiles/wellnesstips.html" class="dropdown_anchors">Wellness Tips</a>
 
 
                         </div>
@@ -188,20 +207,18 @@
                         <div class="smallfootlists" id="firstfoot">
                         
                             <span class="smallcaptionhover">
-                                <span class="innersmallcaption">Yoga Classes</span>
+                                <span class="innersmallcaption" id="yogafotter">Yoga Classes</span>
                             </span>
                             <span class="smallcaptionhover">
-                                <span class="innersmallcaption">Meditation</span>
+                                <span class="innersmallcaption" id="meditationfotter">Meditation</span>
                             </span>
                             <span class="smallcaptionhover">
-                                <span class="innersmallcaption">Fitness Training</span>
+                                <span class="innersmallcaption" id="fitnessfotter">Fitness Training</span>
                             </span>
                             <span class="smallcaptionhover">
-                                <span class="innersmallcaption">Nutrition Counseling</span>
+                                <span class="innersmallcaption" id="nutritionfotter">Nutrition Counseling</span>
                             </span>
-                            <span class="smallcaptionhover">
-                                <span class="innersmallcaption">SPA and Relaxation</span>
-                            </span>
+
                             
                             
                         </div>
@@ -214,19 +231,19 @@
                         </div>
                         <div class="smallfootlists" id="secondfoot">
                             <span class="smallcaptionhover">
-                                <span class="innersmallcaption">Our Philosophy</span>
+                                <span class="innersmallcaption" id="philosophyfotter">Our Philosophy</span>
                             </span>
                             <span class="smallcaptionhover">
-                                <span class="innersmallcaption">About Us</span>
+                                <span class="innersmallcaption" id="aboutusfotter">About Us</span>
                             </span>
                             <span class="smallcaptionhover">
-                                <span class="innersmallcaption">Contact Us</span>
+                                <span class="innersmallcaption" id="contactfotter">Contact Us</span>
                             </span>
                             <span class="smallcaptionhover">
-                                <span class="innersmallcaption">Book Your Class</span>
+                                <span class="innersmallcaption" id="bookingfotter">Book Your Class</span>
                             </span>
                             <span class="smallcaptionhover">
-                                <span class="innersmallcaption">Patients Feedback</span>
+                                <span class="innersmallcaption" id="feedbackfotter">Patients Feedback</span>
                             </span>
                         </div>
                         
@@ -261,11 +278,14 @@
                 <div id="lowerfotter">
                     © 2025 FITCLUB. All rights reserved. | Designed by MOHIT BANJADE(NP070910)| NABIN BARAL | BIBISHAN SHRESTHA | SHRISTIKA SINJAPATI THAPA !!!
                 </div>
-  
+
+    
             </div>
         </div>
     </footer>
+    <script src="../assets/js/footer/footer.js"></script>
+    <script src="../assets/js/mode/mode.js"></script>
+    <script src="../assets/js/todo/todo.js"></script>
 
 </body>
-<script src="../assets/js/todo/todo.js"></script>
 </html>

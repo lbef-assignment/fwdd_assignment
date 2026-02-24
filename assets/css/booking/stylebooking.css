@@ -365,4 +365,221 @@ input{
     color: #30613c;
 }
 
-/* remaining JS innerttext add when button clicked tommorow */
+/* Small laptops + MacBook 13" (<= 1280px) */
+@media (max-width: 1280px) {
+  #booking_innercontainer,
+  #filter_innercontainer,
+  #classes_innerbooking {
+    width: 88%;
+  }
+
+  #classes {
+    width: 50%;
+  }
+
+  #booking_process {
+    width: 46%;
+    gap: 16px;
+  }
+
+  .classescontainer {
+    height: 145px;
+  }
+
+  .classestype {
+    font-size: 22px;
+  }
+}
+
+/* iPad Pro / Tablets landscape (<= 1024px) */
+@media (max-width: 1024px) {
+  #filter_innercontainer {
+    gap: 16px;
+  }
+
+  #classes_innerbooking {
+    flex-direction: column;     /* stack left and right */
+    gap: 16px;
+    align-items: stretch;
+  }
+
+  #classes,
+  #booking_process {
+    width: 100%;
+  }
+
+  #classes_booking {
+    height: auto;              /* don't force fixed height */
+    padding: 14px 0;
+  }
+
+  #booking_process {
+    gap: 14px;
+  }
+
+  #selectedclasses {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  #selectedclasses h3 {
+    width: 90%;
+    text-align: center;
+  }
+
+  #choosedclass {
+    width: 90%;
+  }
+}
+
+/* Tablets portrait / big phones (<= 768px) */
+@media (max-width: 768px) {
+  #booking_container {
+    height: auto;
+    padding: 18px 0;
+  }
+
+  #booking_innercontainer {
+    width: 92%;
+    gap: 10px;
+  }
+
+  #filter_container {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  #filter_innercontainer {
+    width: 92%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .dropdown-btn {
+    width: 150px;
+    height: 38px;
+  }
+
+  .classescontainer {
+    height: auto;
+    padding: 10px 0;
+    flex-direction: column;  /* stack description + schedule */
+    gap: 10px;
+  }
+
+  .classesdescription,
+  #classesshedule {
+    width: 92%;
+    height: auto;
+  }
+
+  .classesday {
+    justify-content: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding-bottom: 6px;
+  }
+
+  h4 {
+    width: auto;
+    padding: 6px 10px;
+  }
+
+  .bookclasses {
+    width: 140px;
+    height: 34px;
+  }
+
+  #bookingprocess_innercontainer {
+    height: auto;
+    padding: 12px 0;
+  }
+
+  .form {
+    width: 90%;
+    padding-left: 12px;
+  }
+
+  input {
+    width: 85%;
+  }
+
+  #submitbtn {
+    width: 90%;
+    height: 40px;
+  }
+}
+
+/* Mobile phones (<= 480px) */
+@media (max-width: 480px) {
+  #booking_innercontainer,
+  #filter_innercontainer,
+  #classes_innerbooking {
+    width: 94%;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .classestype {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .classesname {
+    width: 90%;
+  }
+
+  .classestime,
+  .classesmin,
+  .classesspot {
+    font-size: 13px;
+  }
+
+  #selectedclasses {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  #choosedclass {
+    width: 92%;
+  }
+
+  #days {
+    font-size: 9px; /* your current 7px is too small on mobile */
+  }
+}
+
+/* Very small phones (<= 360px) */
+@media (max-width: 360px) {
+  .dropdown-btn {
+    width: 140px;
+  }
+
+  .bookclasses {
+    width: 130px;
+  }
+
+  input {
+    width: 90%;
+  }
+}
+
+.bkic{
+    transition: all 0.3s ease;
+    transform: scale(1.1) translateY(8px);
+}
+
+.sc{
+
+    transition: all 0.3s ease;
+    transform: scale(1.1) translateY(8px);
+}

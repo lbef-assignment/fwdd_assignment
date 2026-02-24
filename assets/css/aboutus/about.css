@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:"Cormorant Garamond",serif ;
+
 }
 .aboutus{
     height: 200px;
@@ -48,6 +48,15 @@ section{
     width: 100%;
 }
 
+p{
+    font-size: 16px;
+    line-height: 29px;
+    color: #30613c;
+    word-spacing: 0.4px;
+    font-family: "Inter", sans-serif;
+
+}
+
 
 .info-box h1{
     font-size: 5em;
@@ -62,15 +71,15 @@ section{
     background-clip: text;
 } */
 .gradient-txt{
-    font-size: 75px;
+    font-size: 55px;
     font-family: "Cormorant Garamond", serif;
-    font-weight: 700;
+    font-weight: 600;
     color: #1A241C !important;
     text-shadow: none;
 }
 
 h3 .gradient-txt{
-    font-size: 50px;
+    font-size: 37px;
     font-family: "Cormorant Garamond", serif;
   
     color: #1A241C !important;
@@ -84,6 +93,9 @@ h3 .gradient-txt{
     justify-content:  space-between;
     align-items: start;
     
+}
+.value-card h3{
+    font-family: "Cormorant Garamond", serif;
 }
 .btn{
     height: 35px;
@@ -466,4 +478,14 @@ button:hover{
     .values-header h2 {
         font-size: 28px;
     }
+}
+
+.image h4{
+    height: 20px;
+    width: 130px;
+    color: #faf8f6;
+    background-color: #30613c;
+    border-radius: 15px;
+    text-align: center;
+    
 }

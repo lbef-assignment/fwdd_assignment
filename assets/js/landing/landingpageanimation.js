@@ -269,6 +269,34 @@ const sec6observer=new IntersectionObserver((entries)=>{
 },{threshold:0.3})
 sec6observer.observe(section6);
 
+// FOR LOCATION
+
+const locationcontainerr=document.querySelector("#location_container");
+const locobserver=new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+        const locationtitle= entry.target.querySelector("#findourlocation");
+        const locationbagmati = entry.target.querySelector("#bagmati");
+        const locationp=entry.target.querySelector("#ourlocationcaption");
+        const locationimg=entry.target.querySelector("#ourlocationsmallcontainer");
+       
+        if(entry.isIntersecting){
+            locationtitle.classList.add("show");
+            locationbagmati.classList.add("show");
+            locationp.classList.add("show");
+            setTimeout(()=>{
+                locationimg.classList.add("show")
+            },1000);         
+        }
+        else{
+            locationtitle.classList.remove("show");
+            locationbagmati.classList.remove("show");
+            locationp.classList.remove("show");
+            locationimg.classList.remove("show"); 
+        }
+    })
+},{threshold:0.3})
+locobserver.observe(locationcontainerr);
+
 
 
 

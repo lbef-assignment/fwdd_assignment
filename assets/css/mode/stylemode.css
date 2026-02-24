@@ -69,6 +69,9 @@
     border: 1px solid rgba(255, 255, 255, 0.08);
     
 }
+.dark #testimonial{
+    color: #09a185;
+}
 
 .dark .patientinfo{
     background-color:rgb(214, 200, 200,0.04) ;
@@ -267,4 +270,122 @@
     color: #e3d5d5;
     
    
+}
+
+
+/* Membership */
+
+.dark #pricing_section h1{
+    color: #ffffff;
+}
+
+.dark #essential{
+    background-color: #091127 !important;
+}
+
+.dark .card h3{
+    color: #1A241C;
+}
+.dark #premium{
+    color: #ffffff;
+}
+
+
+/* BOOKING */
+.dark #booking_container{
+    background-color: #0f172a;
+}
+.dark #filter_container{
+    background-color: #111827;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+}
+.dark .dropdown-content a{
+    color: #ffffff;
+
+}
+
+.dark #classes_booking{
+    background-color: #0f172a;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+}
+
+.dark #classes{
+    background-color: #111827;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.06);
+    border-radius: 20px;
+
+}
+
+.dark .classescontainer{
+    background-color: #0f172a;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08),
+            inset 0 0 8px rgba(255,255,255,0.04);
+}
+
+.dark .classestype{
+    color: #ffffff;
+}
+
+.dark h4{
+    background-color: #091127;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08),
+            inset 0 0 8px rgba(255,255,255,0.04);
+}
+
+.dark #booking_process{
+    background-color: #091127;
+    border-radius: 20px;
+}
+
+.dark #selectedclasses{
+    background-color: #0f172a;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08),
+            inset 0 0 8px rgba(255,255,255,0.04);
+}
+
+.dark #bookingprocess_innercontainer{
+    background-color: #0f172a;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08),
+            inset 0 0 8px rgba(255,255,255,0.04);
+}
+
+.dark .form {
+    background-color: #091127;
+}
+.dark #choosedclass {
+    background-color: #091127;
+}
+.dark #name{
+    color: #ffffff;
+}
+.dark #bookingprocess_innercontainer input{
+    background-color: #e6d0d0;
+}
+.dark #whichclass{
+    color: #e6d0d0;
+}
+
+/* WELLNESS TIPS */
+
+.dark #healthtiptitle{
+    color: #ffffff;
+}
+.dark #wellnesstips_container{
+    background-color: #0f172a;
+}
+
+/* For Location container */
+.dark #location_container {
+    background-color: #111827;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.06);
+}
+
+.dark #findourlocation{
+    color: #ffffff;
+}
+.dark #ourlocationcaption{
+    color:rgba(255,255,255,0.6);;
+}
+.dark #bagmati{
+    color: #09a185;
 }

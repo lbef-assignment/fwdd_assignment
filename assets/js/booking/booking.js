@@ -50,18 +50,39 @@ classeswith=document.querySelectorAll(".classeswith")
 ;
 booknowbtn=document.querySelectorAll(".bookclasses");
 classesdescription=document.querySelectorAll(".classesdescription");
-
+bookingprocess=document.querySelector("#bookingprocess_innercontainer");
+selectedclass=document.querySelector("#selectedclasses");
+submitbtn=document.querySelector("#submitbtn");
 booknowbtn.forEach(value=> {
-    value.addEventListener("click",()=>{
+    value.addEventListener("click",(e)=>{
+        e.stopPropagation();
         console.log(classesname.innerText);
-        whichclass.innerText=classesname.innerText;
-        cname.innerText=classestype.innerText;
-        instructor.innerText= classeswith.innerText;
+        whichclass.innerText="You Choosed a Class";
+        cname.innerText=`Thank You For Choosing !!`;
+        instructor.innerText= "Filled Out the form below !!";
+        bookingprocess.classList.add("bkic");
+        bookingprocess.style.backgroundColor="#30613c";
+        selectedclass.classList.add("sc");
+        selectedclass.style.backgroundColor="#30613c";
+        selectedclass.style.borderRadius="20px 20px 0 0";
+        bookingprocess.style.borderRadius="0 0 20px 20px";
+        submitbtn.style.boxShadow =
+        "inset 0 0 0 1px rgba(255,255,255,0.08), inset 0 0 8px rgba(255,255,255,0.04)";
 
     })
     
 });
-
+document.addEventListener("click", () => {
+    bookingprocess.classList.remove("bkic");
+    selectedclass.classList.remove("sc");
+    bookingprocess.style.backgroundColor = "";
+    selectedclass.style.backgroundColor="";
+    selectedclass.style.borderRadius="";
+    bookingprocess.style.borderRadius="";
+    whichclass.innerText="";
+    cname.innerText=``;
+    instructor.innerText= "";
+});
 
 
 

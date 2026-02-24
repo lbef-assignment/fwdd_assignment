@@ -1,0 +1,335 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+#wellnesstips_container{
+    scroll-margin-top: 75px;
+    height: 700px;
+    width: 100%;
+    background-color: #f0e9df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wellnesstips{
+    height: 73%;
+    width: 80%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: start;
+
+}
+
+#healthtiptitle{
+    height: 10%;
+    width: 70%;
+    font-size: 50px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    color: #1A241C;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#healthtipcaption{
+    height: 10%;
+    width: 50%;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #30613c;
+    line-height: 26px;
+    display: flex;
+    justify-content: start;
+    
+}
+
+#healthtipbigcontainer{
+    height: 50%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    border-radius: 0 0 0 90px;
+    background-color: #30613c;
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+#healthtipbigcontainer:hover{
+    transform: translateY(-6px);
+  box-shadow:
+    0 18px 35px rgba(0, 0, 0, 0.22),
+    0 6px 12px rgba(0, 0, 0, 0.14);
+}
+
+
+#healthtipshowsec{
+    height: 50%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 22px 26px;
+    border-radius: 0 40px 0 40px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    backdrop-filter: blur(10px);
+
+    font-size: 30px;
+    font-family: "Cormorant Garamond", serif;
+   
+    color: white;
+    line-height: 1.4;
+    text-align: center;
+    overflow: hidden;
+    text-transform: capitalize;
+  
+}
+
+
+#tipText{
+  display: inline-block;
+  overflow: hidden;
+  border-right: 3px solid rgba(255,255,255,0.9); /* cursor */
+  white-space: nowrap; /* keep in single line for typing effect */
+}
+
+
+#tipText.typing{
+  animation: typing 3s steps(var(--steps)) forwards, blink 0.7s step-end infinite;
+}
+
+@keyframes typing{
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+@keyframes blink{
+  50% { border-color: transparent; }
+}
+
+
+
+#healthtipimage{
+    height: 130%;
+    width: 30%;
+ 
+    border-radius: 50px 0 50px 0;
+    background-color: #30613c;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08),
+            inset 0 0 8px rgba(255,255,255,0.04);
+    
+    
+}
+#healthtipdocimage{
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/wellnesstips/wellnessdoc.png);
+    background-size: 120%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0 0 50px 0;
+    transform-origin: bottom;
+
+    filter: 
+        drop-shadow(0px 10px 16px rgba(0, 0, 0, 0.35)) 
+        drop-shadow(0px 20px 39px rgba(0, 0, 0, 0.55)); 
+    
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+  #wellnesstips_container{
+    height: auto;              
+    padding: 70px 0;           
+  }
+
+  #wellnesstips{
+    width: 88%;
+    gap: 22px;
+  }
+
+  #healthtiptitle{
+    width: 100%;
+    font-size: 42px;
+    height: auto;
+  }
+
+  #healthtipcaption{
+    width: 75%;
+    height: auto;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  #healthtipbigcontainer{
+    height: auto;              
+    padding: 16px;             
+    gap: 14px;
+    border-radius: 0 0 0 70px;
+    align-items: stretch;
+  }
+
+  #healthtipshowsec{
+    width: 68%;
+    height: auto;             
+    min-height: 180px;
+    font-size: 26px;
+    padding: 18px 20px;
+  }
+
+  #healthtipimage{
+    width: 32%;
+    height: auto;              
+    min-height: 220px;
+  }
+
+  #healthtipdocimage{
+    background-size: 125%;
+  }
+}
+
+/* 2) Tablets (<= 768px) */
+@media (max-width: 768px) {
+
+  #wellnesstips_container{
+    padding: 60px 0;
+  }
+
+  #wellnesstips{
+    width: 92%;
+    gap: 18px;
+    align-items: stretch;
+  }
+
+  #healthtiptitle{
+    font-size: 36px;
+  }
+
+  #healthtipcaption{
+    width: 100%;
+    font-size: 15px;
+  }
+
+
+  #healthtipbigcontainer{
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 0 0 0 55px;
+  }
+
+  #healthtipshowsec{
+    width: 100%;
+    min-height: 160px;
+    font-size: 24px;
+  }
+
+  #tipText{
+    white-space: normal;     
+    border-right: 0;         
+  }
+
+  #tipText.typing{
+    animation: none;         
+  }
+
+  #healthtipimage{
+    width: 100%;
+    min-height: 240px;
+    border-radius: 35px 0 35px 0;
+  }
+
+  #healthtipdocimage{
+    border-radius: 0 0 35px 0;
+    background-size: 110%;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  #wellnesstips_container{
+    padding: 46px 0;
+  }
+
+  #wellnesstips{
+    width: 92%;
+    gap: 14px;
+  }
+
+  #healthtiptitle{
+    font-size: 30px;
+    letter-spacing: 0.4px;
+  }
+
+  #healthtipcaption{
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  #healthtipbigcontainer{
+    padding: 14px;
+    border-radius: 0 0 0 40px;
+  }
+
+  #healthtipshowsec{
+    font-size: 20px;
+    padding: 16px;
+    min-height: 140px;
+    border-radius: 0 28px 0 28px;
+  }
+
+  #healthtipimage{
+    min-height: 200px;
+    border-radius: 28px 0 28px 0;
+  }
+
+  #healthtipdocimage{
+    background-size: 120%;
+  }
+}
+
+
+@media (max-width: 360px) {
+
+  #healthtiptitle{
+    font-size: 26px;
+  }
+
+  #healthtipshowsec{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px){
+  #healthtipbigcontainer{
+    height: auto;
+  }
+
+  #healthtipimage{
+    width: 100%;
+    height: 240px;   
+  }
+
+  #healthtipdocimage{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
